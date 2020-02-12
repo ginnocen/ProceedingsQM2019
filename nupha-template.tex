@@ -33,6 +33,96 @@
 \documentclass[3p,times,procedia]{elsarticle}
 \usepackage{nupha_ecrc}
 
+
+\newcommand{\pp}{pp}
+\newcommand{\mpp}{\mathrm{pp}}
+\newcommand{\sqrts}{\sqrt{s}}
+\newcommand{\lsim}{\,{\buildrel < \over {_\sim}}\,}
+\newcommand{\gsim}{\,{\buildrel > \over {_\sim}}\,}
+\newcommand{\av}[1]{\left\langle #1 \right\rangle}
+\newcommand{\eV}{\mathrm{eV}}
+\newcommand{\keV}{\mathrm{keV}}
+\newcommand{\MeV}{\mathrm{MeV}}
+\newcommand{\GeV}{\mathrm{GeV}}
+\newcommand{\TeV}{\mathrm{TeV}}
+\newcommand{\ev}{\mathrm{eV}}
+\newcommand{\kev}{\mathrm{keV}}
+\newcommand{\mev}{\mathrm{MeV}}
+\newcommand{\gev}{\mathrm{GeV}}
+\newcommand{\gevc}{\mathrm{GeV}/c}
+\newcommand{\tev}{\mathrm{TeV}}
+\newcommand{\fm}{\mathrm{fm}}
+\newcommand{\mm}{\mathrm{mm}} 
+\newcommand{\cm}{\mathrm{cm}}
+\newcommand{\m}{\mathrm{m}}
+\newcommand{\mum}{\mathrm{\mu m}}
+\newcommand{\s}{\mathrm{s}}
+\newcommand{\ns}{\mathrm{ns}}
+\newcommand{\mrad}{\mathrm{mrad}}
+\newcommand{\mb}{\mathrm{mb}}
+\newcommand{\mub}{\mathrm{\mu b}}
+\newcommand{\T}{\mathrm{T}}
+\newcommand{\PbPb}{\mbox{Pb--Pb}}
+\newcommand{\pt}{p_{\rm T}}
+\newcommand{\dNdy}{{\rm d}N_{ch}/{\rm d}y}
+\newcommand{\momwin}{[$p$, $p$+$\Delta$ $p$]}
+\newcommand{\DtoKpi}{{\rm D}^0 \to {\rm K}^-\pi^+}
+\newcommand{\DtoKpipi}{{\rm D}^+\to {\rm K}^-\pi^+\pi^+}
+\newcommand{\DstartoDpi}{{\rm D}^{*+} \to {\rm D}^0 \pi^+}
+\newcommand{\DstartoDpiPrecise}{{\rm D^{*+}(2010)\to D^0\pi^+}}
+\newcommand{\LctopKzeros}{{\rm \Lambda_{c}^+ \to pK^{0}_{s} \to p\pi^+\pi^-}}
+\newcommand{\Dstophip}{{\rm D_{s}^+ \to \phi \pi^+ \to K^{+}K^{-} \pi^+}}
+\newcommand{\Dzero}{{\rm D^0}}
+\newcommand{\Dzerobar}{\overline{{\rm D^0}}}
+\newcommand{\Dstar}{{\rm D^{*+}}}
+\newcommand{\Dstarm}{{\rm D^{*-}}}
+\newcommand{\Dplus}{{\rm D^+}}
+\newcommand{\Dminus}{{\rm D^-}}
+\newcommand{\Ds}{{\rm D_{s}^+}}
+\newcommand{\Dsminus}{{\rm D_{s}^-}}
+\newcommand{\Lc}{{\rm \Lambda_{c}^+}}
+\newcommand{\Lcminus}{{\rm \Lambda_{c}^-}}
+%\newcommand{\ccbar}{${\rm c}\bar{\rm c}$~}
+\newcommand{\nbinv}{{\rm nb^{-1}}}
+\newcommand{\decleng}{{\rm L}_{xyz}}
+\newcommand{\dEdx}{{\rm d}E/{\rm d}x}
+\newcommand{\Pv}{{\rm P}_{\rm v}}
+\newcommand{\cubar}{{\rm c}\bar{\rm u}}
+\newcommand{\cdbar}{{\rm c}\bar{\rm d}}
+\newcommand{\mur}{\mu_{\rm R}}
+\newcommand{\muf}{\mu_{\rm F}}
+\newcommand{\mc}{m_{\rm c}}
+\newcommand{\sigmatot}{\sigma_{\rm tot}}
+\newcommand{\ccbar}{${\rm c}\bar{\rm c}$~}
+\newcommand{\bbbar}{${\rm b}\bar{\rm b}$~}
+\newcommand{\Jpsi}{{\rm J}/\psi}
+\newcommand{\RAA}{\rm R_{AA}}
+
+\newcommand{\Ntrk}{N_{\rm tracklets}}
+\newcommand{\Nvzero}{N_{\rm VZERO}}
+\newcommand{\dNdEta}{{\rm d}N_{\rm ch}/{\rm d}\eta}
+\newcommand{\dNdpt}{{\rm d}N^{\rm D}/{\rm d}\pt}
+\newcommand{\dNDzdpt}{{\rm d}N^{\rm \Dzero}/{\rm d}\pt}
+\newcommand{\dNdydpt}{{\rm d}^2N^{\rm D}/{\rm d}y {\rm d}\pt}
+\newcommand{\dNDzdydpt}{{\rm d}^2N^{\rm \Dzero}/{\rm d}y {\rm d}\pt}
+\newcommand{\fB}{f_{\rm B}}
+
+
+\newcommand{\ptjet}{{p}^{\tn{jet ch}}_{\tn{T}}}
+\newcommand{\pthf}{{p}_\tn{T}^\tn{HF}}
+\newcommand{\etajet}{{\eta}_{\tn{jet}}}
+\newcommand{\zch}{{z_{\parallel}^{\tn{ch}}}}
+\newcommand{\zchr}{{z_{\parallel\tn{, rec.}}^{\tn{ch}}}}
+\newcommand{\zchg}{{z_{\parallel\tn{, gen.}}^{\tn{ch}}}}
+\newcommand{\pchjet}{{\bm{p}}^\tn{jet ch}}
+
+\newcommand{\ptjchr}{p_\tn{T, rec.}^\tn{jet ch}}
+\newcommand{\ptjchg}{p_\tn{T, gen.}^\tn{jet ch}}
+\newcommand{\pth}{p_\tn{T}^\tn{h}}
+
+\newcommand{\tn}[1]{\textnormal{#1}} % normal (upright non-bold) text
+\newcommand{\dd}{\mathrm{d}} % total differential symbol
+
 %% The ecrc package defines commands needed for running heads and logos.
 %% For running heads, you can set the journal name, the volume, the starting page and the authors
 
@@ -159,18 +249,21 @@
 \address{}
 
 \begin{abstract}
-	
-%% Text of abstract
+The measurement of heavy-flavour production represents a powerful tool to study the medium formed in high-energy 
+heavy-ion collisions. Produced in hard scattering processes on a timescale shorter than the QGP formation time, 
+they experience the whole evolution of the medium interacting with its constituents. The measurements of charm-hadron 
+production allows testing the mechanisms of in-medium parton energy loss. Moreover, the study of charm-baryon 
+production in heavy-ion collisions and in particular the baryon-to-meson ratio, provides unique information on 
+hadronisation mechanisms, constraining the role of coalescence and testing the predicted presence of diquark states in the medium.
+In this contribution, the ALICE results on open charmed meson and baryon production with the 2018 PbPb sample will be presented
+with a focus on the recent measurements of $\Lc$/$\Dzero$ and $\Ds$/$\Dzero$ ratios as a function of transverse momentum in central and peripheral PbPb 
+collisions and as a function of charged particle multiplicity and transverse momentum in proton-proton collisions. 
+Next exploratory measurements of strange charmed baryons production and baryon production in jets will also be discussed.
 \end{abstract}
 
 \begin{keyword}
-%% keywords here, in the form: keyword \sep keyword
-
-%% MSC codes here, in the form: \MSC code \sep code
-%% or \MSC[2008] code \sep code (2000 is the default)
-
+Heavy ions \sep heavy flavours \sep energy loss \sep quark recombination
 \end{keyword}
-
 \end{frontmatter}
 
 %%
@@ -179,45 +272,63 @@
 % \linenumbers
 
 %% main text
-\section{}
-\label{}
+\section{Introduction}
+\label{intro}
+Charm and beauty quarks are produced in hard scattering processes at the very early stages of heavy-ion collisions. As a consequence of the 
+large momentum trasferred in these processes, their production can be effectively described by perturbative QCD calculations. 
+Once produced, they traverse the hot and dense medium and they interact with the medium constituens via inelastic or elastic processes.
+Therefore, by studying their suppression in heavy-ion collisions, one can investigate the microscopic nature of energy loss processes
+and constrain fundamental parameters of the system, like the charm diffusion coefficient. On the other side, measurements of 
+heavy-flavour hadrochemistry can be used to constrain the relevance of processes of quark recombination in the medium. A quantitative 
+understanding of heavy-flavour recombination is indeed extremely important to characterise the nature of quasi-particles in the QGP.
+The study of heavy-flavour production can also play an important role in understanding the nature of the system we create in proton-proton and 
+proton-lead collisions. The study of hadron ratios in these systems can indeed highight the presence of recombination 
+processes in small systems and shed new lights into the medium-like phenomena that have been observed in the last years both at RHIC and at the LHC. 
+
+\section{Heavy-quark energy loss}
+\label{intro}
+With the large statistics collected at the end of 2018, ALICE was able to update its measurement of the nuclear modification factor of 
+$\Dzero$ mesons in central and peripheral PbPb collisions. In Fig.~\ref{fig:prompt_nonpromptRAA} (left), the $\RAA$ of $\Dzero$ in the centrality 
+interval 0--10$\%$ is presented as a function of the trasnverse momentum $\pt$. For the first time at the LHC, the $\Dzero$ production is measured 
+in central collisions down to 0 GeV/c. The high accuracity of this measurement is now capable of challenging theoretical calculation in a wide 
+transverse momentum region. In particular, the new 0--1 $\GeV$ interval seems to confirm the relevance of shadowing mechanisms for charm at low $\pt$
+which reduce the charm production in the low-$x$ region. A new measurement of the beauty suppression via the analysis of non-prompt $\Dzero$ hadrons 
+was also presented. In the middle panel of Fig.~\ref{fig:prompt_nonpromptRAA}, the ratio of the $\RAA$ of prompt and non-prompt $\Dzero$ mesons is presented
+as a function of $\pt$. The ratio shows a maximum for $\pt$ of about 10 $\GeV$ and a decrease at higher transverse momenta. This trend is pretty well 
+described by theoretical calculations which include a different relevance of energy loss mechanisms for charm and beauty quark. 
+This new measurement is therefore consistent with the expectation of flavour dependence of the mechanisms of energy loss in presence of free color charges.
 
 \begin{figure}[h]
-\includegraphics[width=7cm]{Plots/D/2019-10-31-2019-10-28-DmesonAverage_vs_transportmodels_010_5dot02.pdf}
-\includegraphics[width=7cm]{Plots/NP/2019-10-31-2019-10-29-D0PbPb5TeV_010_RaaRatio_wModel.pdf}
+\includegraphics[width=0.33\textwidth]{Plots/D/2019-10-31-2019-10-28-DmesonAverage_vs_transportmodels_010_5dot02.pdf}
+\includegraphics[width=0.33\textwidth]{Plots/NP/2019-10-31-2019-10-29-D0PbPb5TeV_010_RaaRatio_wModel.pdf}
+\includegraphics[width=0.33\textwidth]{Plots/D/2019-10-31-2019-10-28-DoubleRatio_DsOverDzero_PbPb2018_010_pp_WithModels.pdf}
 \caption{Alleluja}
 \label{fig:prompt_nonpromptRAA}
 \end{figure}
 
 \begin{figure}[h]
-\includegraphics[width=8cm]{Plots/D/2019-10-31-2019-10-28-DoubleRatio_DsOverDzero_PbPb2018_010_pp_WithModels.pdf}
-\caption{Alleluja}
-\label{fig:DsD0}
-\end{figure}
-
-\begin{figure}[h]
-\includegraphics[width=8.5cm]{Plots/PbPbLc/2019-10-28-LcD_PbPb18_010_3050_pp_Logx_shift.pdf}
-\includegraphics[width=8.5cm]{Plots/PbPbLc/2019-10-31-LcD_PbPb18_010_theory_withPythia.pdf}
+\includegraphics[width=0.49\textwidth]{Plots/PbPbLc/2019-10-28-LcD_PbPb18_010_3050_pp_Logx_shift.pdf}
+\includegraphics[width=0.49\textwidth]{Plots/PbPbLc/2019-10-31-LcD_PbPb18_010_theory_withPythia.pdf}
 \caption{Alleluja}
 \label{fig:LcD0andtheory}
 \end{figure}
 
 \begin{figure}[h]
-\includegraphics[width=8.5cm]{Plots/ppHM/2019-10-31-2019-10-31-DsOverD0_allMult_MB.pdf}
-\includegraphics[width=8.5cm]{Plots/ppHM/2019-10-31-2019-10-31-LcpKpiOverD0_wPythiaMonashMode2_allMult.pdf}
+\includegraphics[width=0.49\textwidth]{Plots/ppHM/2019-10-31-2019-10-31-DsOverD0_allMult_MB.pdf}
+\includegraphics[width=0.49\textwidth]{Plots/ppHM/2019-10-31-2019-10-31-LcpKpiOverD0_wPythiaMonashMode2_allMult.pdf}
 \caption{Alleluj sdsda}
 \label{fig:highmult}
 \end{figure}
 
 \begin{figure}[h]
-\includegraphics[width=16cm]{Plots/ppHM/2019-10-31-2019-10-31-LcOverD0VsMult_pp_pPb_PbPb.pdf}
+\includegraphics[width=0.9\textwidth]{Plots/ppHM/2019-10-31-2019-10-31-LcOverD0VsMult_pp_pPb_PbPb.pdf}
 \caption{Alleluja}
 \label{fig:LcDo_allsystems}
 \end{figure}
 
 \begin{figure}[h]
-\includegraphics[width=8.5cm]{Plots/Xi_c/2019-10-28-2019-10-28-Xic0toD0_5TeV_wModel1.pdf}
-\includegraphics[width=8.5cm]{Plots/FF/2019-10-31-finalwsys_wmodels_pt_jet_7_15.pdf}
+\includegraphics[width=0.49\textwidth]{Plots/Xi_c/2019-10-28-2019-10-28-Xic0toD0_5TeV_wModel1.pdf}
+\includegraphics[width=0.49\textwidth]{Plots/FF/2019-10-31-finalwsys_wmodels_pt_jet_7_15.pdf}
 \caption{Alleluja}
 \label{fig:future}
 \end{figure}
