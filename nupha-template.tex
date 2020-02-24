@@ -37,6 +37,7 @@
 \newcommand{\pp}{pp}
 \newcommand{\mpp}{\mathrm{pp}}
 \newcommand{\sqrts}{\sqrt{s}}
+\newcommand{\sqrtsNN}{\sqrt{s_{\rm NN}}}
 \newcommand{\lsim}{\,{\buildrel < \over {_\sim}}\,}
 \newcommand{\gsim}{\,{\buildrel > \over {_\sim}}\,}
 \newcommand{\av}[1]{\left\langle #1 \right\rangle}
@@ -44,6 +45,7 @@
 \newcommand{\keV}{\mathrm{keV}}
 \newcommand{\MeV}{\mathrm{MeV}}
 \newcommand{\GeV}{\mathrm{GeV}}
+\newcommand{\GeVc}{\mathrm{GeV\c}}
 \newcommand{\TeV}{\mathrm{TeV}}
 \newcommand{\ev}{\mathrm{eV}}
 \newcommand{\kev}{\mathrm{keV}}
@@ -237,16 +239,16 @@
 %% \dochead can also be used to include a conference title, if directed by the editors
 %% e.g. \dochead{17th International Conference on Dynamical Processes in Excited States of Solids}
 
-\title{}
+\title{Latest results on $\Lc$ and D production in pp and Pb-Pb collisions at $\sqrtsNN$ = 5.02 TeV with ALICE at the LHC}
 
 %% use optional labels to link authors explicitly to addresses:
 %% \author[label1,label2]{<author name>}
 %% \address[label1]{<address>}
 %% \address[label2]{<address>}
 
-\author{}
+\author{Gian Michele Innocenti}
 
-\address{}
+\address{CERN, Espl. des Particules 1, 1211 Meyrin, Switzerland}
 
 \begin{abstract}
 The measurement of heavy-flavour production represents a powerful tool to study the medium formed in high-energy 
@@ -254,11 +256,11 @@ heavy-ion collisions. Produced in hard scattering processes on a timescale short
 they experience the whole evolution of the medium interacting with its constituents. The measurements of charm-hadron 
 production allows testing the mechanisms of in-medium parton energy loss. Moreover, the study of charm-baryon 
 production in heavy-ion collisions and in particular the baryon-to-meson ratio, provides unique information on 
-hadronisation mechanisms, constraining the role of coalescence and testing the predicted presence of diquark states in the medium.
-In this contribution, the ALICE results on open charmed meson and baryon production with the 2018 PbPb sample will be presented
-with a focus on the recent measurements of $\Lc$/$\Dzero$ and $\Ds$/$\Dzero$ ratios as a function of transverse momentum in central and peripheral PbPb 
-collisions and as a function of charged particle multiplicity and transverse momentum in proton-proton collisions. 
-Next exploratory measurements of strange charmed baryons production and baryon production in jets will also be discussed.
+hadronisation mechanisms, constraining the role of coalescence.
+In this contribution, the ALICE results on open charmed meson and baryon production in large and small systems will be presented
+with a focus on the recent measurements of $\Lc$/$\Dzero$ and $\Ds$/$\Dzero$ ratios in central and peripheral PbPb collisions 
+and on the new results obtained for the same ratios in proton-proton collisions as a function of the charged particle multiplicity.
+The prospects for $\Xi_{c}$ and $\Sigma_{c}$ analyses will also be discussed.
 \end{abstract}
 
 \begin{keyword}
@@ -279,57 +281,88 @@ large momentum trasferred in these processes, their production can be effectivel
 Once produced, they traverse the hot and dense medium and they interact with the medium constituens via inelastic or elastic processes.
 Therefore, by studying their suppression in heavy-ion collisions, one can investigate the microscopic nature of energy loss processes
 and constrain fundamental parameters of the system, like the charm diffusion coefficient. On the other side, measurements of 
-heavy-flavour hadrochemistry can be used to constrain the relevance of processes of quark recombination in the medium. A quantitative 
-understanding of heavy-flavour recombination is indeed extremely important to characterise the nature of quasi-particles in the QGP.
+heavy-flavour hadrochemistry can be used to constrain the relevance of processes of quark recombination in the medium.
 The study of heavy-flavour production can also play an important role in understanding the nature of the system we create in proton-proton and 
-proton-lead collisions. The study of hadron ratios in these systems can indeed highight the presence of recombination 
-processes in small systems and shed new lights into the medium-like phenomena that have been observed in the last years both at RHIC and at the LHC. 
+proton-lead collisions. The study of heavy-particle ratios can indeed highight the presence of recombination 
+processes in small systems and shed new light into the medium-like phenomena that have been observed in the last years both at RHIC and at the LHC. 
+A more detailed description of heavy-flavour physics in large and small systems can be found in~\cite{saporegravis,prinorapp,yenjie}.
 
 \section{Heavy-quark energy loss}
-\label{intro}
+\label{eloss}
 With the large statistics collected at the end of 2018, ALICE was able to update its measurement of the nuclear modification factor of 
-$\Dzero$ mesons in central and peripheral PbPb collisions. In Fig.~\ref{fig:prompt_nonpromptRAA} (left), the $\RAA$ of $\Dzero$ in the centrality 
-interval 0--10$\%$ is presented as a function of the trasnverse momentum $\pt$. For the first time at the LHC, the $\Dzero$ production is measured 
-in central collisions down to 0 GeV/c. The high accuracity of this measurement is now capable of challenging theoretical calculation in a wide 
-transverse momentum region. In particular, the new 0--1 $\GeV$ interval seems to confirm the relevance of shadowing mechanisms for charm at low $\pt$
-which reduce the charm production in the low-$x$ region. A new measurement of the beauty suppression via the analysis of non-prompt $\Dzero$ hadrons 
-was also presented. In the middle panel of Fig.~\ref{fig:prompt_nonpromptRAA}, the ratio of the $\RAA$ of prompt and non-prompt $\Dzero$ mesons is presented
-as a function of $\pt$. The ratio shows a maximum for $\pt$ of about 10 $\GeV$ and a decrease at higher transverse momenta. This trend is pretty well 
-described by theoretical calculations which include a different relevance of energy loss mechanisms for charm and beauty quark. 
-This new measurement is therefore consistent with the expectation of flavour dependence of the mechanisms of energy loss in presence of free color charges.
+non-strange D mesons in central and peripheral PbPb collisions. In Fig.~\ref{fig:prompt_nonpromptRAA} (left), the $\RAA$ of non-strange D mesons in the centrality 
+interval 0--10$\%$ is presented as a function of the transverse momentum $\pt$. For the first time at the LHC, the $\Dzero$ production is measured 
+in central collisions down to 0 GeV/c. This measurement is now capable of challenging energy-loss calculations in a wide 
+transverse momentum region~\cite{bamps,tamu,phsd,sHQ,catania}. In addition, the new data point obtained in the 0--1 $\GeV$ provides new experimental constraints on the relevance of 
+shadowing in the charm sector. A new measurement of the beauty suppression via the analysis of non-prompt $\Dzero$ hadrons 
+was also presented. In the middle panel of Fig.~\ref{fig:prompt_nonpromptRAA}, the ratio of the $\RAA$ of non-prompt and prompt $\Dzero$ mesons is shown
+as a function of $\pt$. The ratio shows a maximum for $\pt$ of about 10 $\GeV$ and a decrease at higher transverse momenta. This trend is well 
+described by theoretical calculations which include a different energy loss for charm and beauty quarks~\cite{tamu,sHQ,cujet3}. 
 
+\section{Charm recombination}
+\label{recombination}
+Stronger constraints on the role of charm recombination were obtained thanks to new measurements of the $\Ds$/$\Dzero$ and $\Lc$/$\Dzero$ ratios
+in central PbPb collisions. In Fig.~\ref{fig:prompt_nonpromptRAA} (left), the double ratio of $\Ds$/$\Dzero$ measured in PbPb and pp collisions 
+is presented as a function of $\pt$. An enhancement of a factor about 2 is observed in central PbPb collisions at $\pt$ of $\approx$5 $\GeVc$. The $\pt$-dependence and the magnitude 
+of this enhancement is well described by theoretical calculations, like TAMU, that adopt a Langevin approach to describe the charm evolution in the 
+medium and include charm recombination~\cite{tamu}. The first measurement of the $\Lc$/$\Dzero$ ratio in central PbPb collision was also presented. 
+In the left panel of Fig.~\ref{fig:LcD0andtheory}, the PbPb measurement performed in the centrality region 0--10$\%$ is presented and compared to the same ratio
+measured in semipheripheral PbPb and pp collisions. A moderate enhancement is observed in central and peripheral collisions with respect to pp for $\pt$ of about 5--8 $\GeVc$
+as expected in presence of charm recombination. In the right panel of the same plot, the central PbPb measurement is compared to different theoretical calcuations~\cite{catania,shm,pythia8}.
+Higher statistics measurements will be needed in order to be able to discriminate among different theoretical descriptions of this observable.
 \begin{figure}[h]
 \includegraphics[width=0.33\textwidth]{Plots/D/2019-10-31-2019-10-28-DmesonAverage_vs_transportmodels_010_5dot02.pdf}
 \includegraphics[width=0.33\textwidth]{Plots/NP/2019-10-31-2019-10-29-D0PbPb5TeV_010_RaaRatio_wModel.pdf}
 \includegraphics[width=0.33\textwidth]{Plots/D/2019-10-31-2019-10-28-DoubleRatio_DsOverDzero_PbPb2018_010_pp_WithModels.pdf}
-\caption{Alleluja}
+\caption{(Left) $\RAA$ of non-strange D mesons in the centrality interval 0--10$\%$ compared to various theoretical calculations. 
+	(Middle) Ratio of the $\RAA$ of non-prompt and prompt $\Dzero$ mesons as a function of $\pt$. 
+	(Right) Double ratio of $\Ds$/$\Dzero$ measured in central PbPb and pp collisions.}
 \label{fig:prompt_nonpromptRAA}
 \end{figure}
 
+\section{Heavy-flavour hadronization in small systems}
+\label{recombination}
+The comparison between the $\Ds$/$\Dzero$ and $\Lc$/$\Dzero$ ratios in pp and central PbPb collisions, although with limited statistical precision, 
+supports the hypothesis of baryon/meson ehancement due to charm recombination inside the QGP. The natural question was therefore to 
+understand whether these phenomena could also play a role in small systems.
+In this conference, the first measurements of the $\Ds$/$\Dzero$ and $\Lc$/$\Dzero$ ratios as a function of multiplicity in pp collisions were presented.
+For these measurements, the multiplicity was sampled according to the number of tracklets measured in the two innermost layers of the Inner Tracking 
+System (ITS). The lowest multiplicity range considered corresponds to an average $\rm dN_{ch}/d\eta$ of 3.9, well above the average pp multiplicity, while 
+the highest interval to an average $\rm dN_{ch}/d\eta$ of about 2.5 times the minimum-bias one.
+In the left panel of Fig.~\ref{fig:highmult}, the $\Ds$/$\Dzero$ ratios as a function of $\pt$ in different ranges of charged particle multiplicity are presented. 
+For this ratio, a mild increase still not statistically significant is observed at intermediate $\pt$. 
+On the other side, as shown in the right panel of the same figure, a much stronger multiplicity dependence is observed 
+for the $\Lc$/$\Dzero$ ratio. Currently, no theoretical calculations that include charm recombination are available for a direct comparison to the data.
+The comparison with PYTHIA calculations provide however very interesting information. First of all, the ratio even at 
+low multiplicity is already much higher than the standard PYTHIA Monash tune, which also describe well e$^+$e$^-$ measurements. In addition,
+the multiplicity dependence of these measurements is qualitatively described by recent PYTHIA tunes 
+that include more processes of color reconnection beyond leading colour~\cite{pythia8CR}. In this formalism, the enhacement could be an effect of 
+final state color reconnection processes that do not strictly require the presence of the QGP. 
+Futher comparison with theoretical calculations and future measurements with higher precision are however still needed in order to draw a firm conclusion on this point.
+New measurements that could provide new insights into the hadronization mechanisms in proton-proton collisions were also discussed. In particular, the first measurement 
+of the $\Xi^{0}_{c}/\Dzero$ in pp collisions was presented (Fig.~\ref{fig:future}). The measured ratio is largely understimated even by PYTHIA calculations which could 
+reasonably describe the $\Lc$/$\Dzero$ ratio as a function of multiplicity suggesting that these ratios could have a stronger discrimination power to study
+these phenomena.  
 \begin{figure}[h]
-\includegraphics[width=0.49\textwidth]{Plots/PbPbLc/2019-10-28-LcD_PbPb18_010_3050_pp_Logx_shift.pdf}
-\includegraphics[width=0.49\textwidth]{Plots/PbPbLc/2019-10-31-LcD_PbPb18_010_theory_withPythia.pdf}
-\caption{Alleluja}
+\includegraphics[width=0.43\textwidth]{Plots/PbPbLc/2019-10-28-LcD_PbPb18_010_3050_pp_Logx_shift.pdf}
+\includegraphics[width=0.43\textwidth]{Plots/PbPbLc/2019-10-31-LcD_PbPb18_010_theory_withPythia.pdf}
+\caption{
+	(Left) Ratio of the $\RAA$ of $\Lc$ and $\Dzero$ mesons as a function of $\pt$ in pp, central and semipheripheral PbPb collisions. 
+	(Right) Ratio of the $\RAA$ of $\Lc$ and $\Dzero$ mesons in central PbPb collisions compared to theoretical calculations.}
 \label{fig:LcD0andtheory}
 \end{figure}
 
 \begin{figure}[h]
-\includegraphics[width=0.49\textwidth]{Plots/ppHM/2019-10-31-2019-10-31-DsOverD0_allMult_MB.pdf}
-\includegraphics[width=0.49\textwidth]{Plots/ppHM/2019-10-31-2019-10-31-LcpKpiOverD0_wPythiaMonashMode2_allMult.pdf}
-\caption{Alleluj sdsda}
+\includegraphics[width=0.43\textwidth]{Plots/ppHM/2019-10-31-2019-10-31-DsOverD0_allMult_MB.pdf}
+\includegraphics[width=0.43\textwidth]{Plots/ppHM/2019-10-31-2019-10-31-LcpKpiOverD0_wPythiaMonashMode2_allMult.pdf}
+\caption{
+	(Left) $\Ds$/$\Dzero$ ratio measured in pp collisions at 13 TeV in different multiplicity intervals. 
+	(Right) $\Lc$/$\Dzero$ ratio measured in pp collisions at 13 TeV in different multiplicity intervals compared to different PYTHIA calculations.} 
 \label{fig:highmult}
 \end{figure}
-
 \begin{figure}[h]
-\includegraphics[width=0.9\textwidth]{Plots/ppHM/2019-10-31-2019-10-31-LcOverD0VsMult_pp_pPb_PbPb.pdf}
-\caption{Alleluja}
-\label{fig:LcDo_allsystems}
-\end{figure}
-
-\begin{figure}[h]
-\includegraphics[width=0.49\textwidth]{Plots/Xi_c/2019-10-28-2019-10-28-Xic0toD0_5TeV_wModel1.pdf}
-\includegraphics[width=0.49\textwidth]{Plots/FF/2019-10-31-finalwsys_wmodels_pt_jet_7_15.pdf}
-\caption{Alleluja}
+\includegraphics[width=0.76\textwidth]{Plots/Xi_c/2019-10-28-2019-10-28-Xic0toD0_5TeV_wModel1.pdf}
+\caption{$\Xi_{c}$/$\Dzero$ ratio measured in pp collisions at 5 TeV compared to PYTHIA calculations.}
 \label{fig:future}
 \end{figure}
 
@@ -358,15 +391,25 @@ This new measurement is therefore consistent with the expectation of flavour dep
 
 %% For references without a BibTeX database:
 
-% \begin{thebibliography}{00}
+ \begin{thebibliography}{00}
 
-%% \bibitem must have the following form:
 %%   \bibitem{key}...
 %%
 
 % \bibitem{}
-
-% \end{thebibliography}
+\bibitem{saporegravis} A. Andronic et al., Eur. Phys. J. C 76 (2016) 107, doi:10.1140/epjc/s10052-015-3819-5, arXiv:1506.03981.
+\bibitem{prinorapp} F. Prino, R. Rapp, Journal of Physics G: Nuclear and Particle Physics, Vol.3, Num. 9, 10.1088/0954-3899/43/9/093002, arXiv:1603.00529.
+\bibitem{yenjie} X. Dong, Y-J. Lee, R. Rapp, Annual Review of Nuclear and Particle Science, Vol. 69:417-445, arXiv:1903.07709.
+\bibitem{bamps} Uphoff J, Fochler O, Xu Z, Greiner C. J. Phys. G42:115106 (2015).
+\bibitem{tamu} He M, Fries RJ, Rapp R. Phys. Lett. B735:445 (2014).
+\bibitem{phsd} Song T, et al. Phys. Rev. C93:034906 (2016).
+\bibitem{sHQ} Andronic A, et al. Eur. Phys. J. C76:107 (2016).
+\bibitem{catania} Das SK, Scardina F, Plumari S, Greco V. Phys. Lett. B747:260 (2015).
+\bibitem{cujet3} A. Buzzatti, M. Gyulassy, arXiv:1207.6020.
+\bibitem{shm} A.Andronic,P.Braun-Munzinger,K.RedlichandJ.Stachel,Nucl.Phys.A789(2007)334,arXiv:nucl-th/0611023.
+\bibitem{pythia8} An introduction to PYTHIA 8.2, https://doi.org/10.1016/j.cpc.2015.01.024.
+\bibitem{pythia8CR} J. R. Christiansen, P. Z. Skands, arXiv:1505.01681.
+\end{thebibliography}
 
 \end{document}
 
