@@ -1,17 +1,19 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  12 FEB 2020 10:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.28)  26 FEB 2020 11:57
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
 **nupha-template.tex
 (./nupha-template.tex
-LaTeX2e <2018-12-01>
+LaTeX2e <2018-04-01> patch level 2
+Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (./elsarticle.cls
 Document Class: elsarticle 2010/06/11, 1.21: Elsevier Ltd
 \@bls=\dimen102
-(/usr/local/texlive/2019/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
-(/usr/local/texlive/2019/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count80
 \c@section=\count81
@@ -25,40 +27,40 @@ File: size10.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen103
 )
-(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/keyval.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/trig.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-def/pdftex.def
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen104
 \Gin@req@width=\dimen105
 )
-(/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/pifont.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/pifont.sty
 Package: pifont 2005/04/12 PSNFSS-v9.2a Pi font support (SPQR) 
 LaTeX Font Info:    Try loading font information for U+pzd on input line 63.
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/upzd.fd
+(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/upzd.fd
 File: upzd.fd 2001/06/04 font definitions for U/pzd.
 )
 LaTeX Font Info:    Try loading font information for U+psy on input line 64.
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/upsy.fd
+(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/upsy.fd
 File: upsy.fd 2001/06/04 font definitions for U/psy.
 ))
 \c@tnote=\count88
@@ -68,19 +70,19 @@ File: upsy.fd 2001/06/04 font definitions for U/psy.
 \c@author=\count92
 \@eadauthor=\toks15
 \c@affn=\count93
-\absbox=\box27
-\keybox=\box28
+\absbox=\box26
+\keybox=\box27
 \Columnwidth=\dimen106
 \space@left=\dimen107
-\els@boxa=\box29
-\els@boxb=\box30
+\els@boxa=\box28
+\els@boxb=\box29
 \leftMargin=\dimen108
 \@enLab=\toks16
 \@sep=\skip43
 \@@sep=\skip44
 
 (./nupha-template.spl)
-(/usr/local/texlive/2019/texmf-dist/tex/latex/natbib/natbib.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip45
 \bibsep=\skip46
@@ -91,17 +93,17 @@ LaTeX Info: Redefining \cite on input line 694.
 \openout3 = `nupha-template.spl'.
 
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/geometry/geometry.sty
-Package: geometry 2018/04/16 v5.8 Page Geometry
+(/usr/local/texlive/2018/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2018/03/24 v5.7 Page Geometry
 
-(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
-(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-(/usr/local/texlive/2019/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+(/usr/local/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count95
@@ -119,7 +121,7 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \appnamewidth=\dimen117
 )
-(/usr/local/texlive/2019/texmf-dist/tex/latex/txfonts/txfonts.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/txfonts/txfonts.sty
 Package: txfonts 2008/01/22 v3.2.1
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 21.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
@@ -201,10 +203,10 @@ Package: nupha_ecrc 2015/08/00 v1.0 Elsevier NUPHA addons
 Package: ecrc 2011/05/07 v1.2a ecrc
 \dummylogowidth=\dimen118
 ))
-(/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks18
 LaTeX Font Info:    Redeclaring symbol font `AMSa' on input line 59.
@@ -438,74 +440,71 @@ LaTeX Font Info:    Redeclaring math symbol \Bbbk on input line 261.
 LaTeX Font Info:    Redeclaring math symbol \hslash on input line 262.
 LaTeX Font Info:    Redeclaring math symbol \backepsilon on input line 265.
 )
-(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/rotating.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/rotating.sty
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/base/ifthen.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 \c@r@tfl@t=\count98
 \rotFPtop=\skip47
 \rotFPbot=\skip48
-\rot@float@box=\box31
+\rot@float@box=\box30
 \rot@mess@toks=\toks19
 )
 (./nupha-template.aux
 
-LaTeX Warning: Label `fig:LcD0andtheory' multiply defined.
-
-
-LaTeX Warning: Label `fig:LcD0andtheory' multiply defined.
+LaTeX Warning: Label `recombination' multiply defined.
 
 )
 \openout1 = `nupha-template.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 117.
-LaTeX Font Info:    Try loading font information for OML+txmi on input line 117
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 209.
+LaTeX Font Info:    Try loading font information for OML+txmi on input line 209
 .
- (/usr/local/texlive/2019/texmf-dist/tex/latex/txfonts/omltxmi.fd
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 117.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 117.
-LaTeX Font Info:    ... okay on input line 117.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 117.
-LaTeX Font Info:    ... okay on input line 117.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 117.
-LaTeX Font Info:    Try loading font information for OMS+txsy on input line 117
+LaTeX Font Info:    ... okay on input line 209.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 209.
+LaTeX Font Info:    ... okay on input line 209.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 209.
+LaTeX Font Info:    ... okay on input line 209.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 209.
+LaTeX Font Info:    Try loading font information for OMS+txsy on input line 209
 .
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/txfonts/omstxsy.fd
+(/usr/local/texlive/2018/texmf-dist/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 117.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 117.
-LaTeX Font Info:    Try loading font information for OMX+txex on input line 117
+LaTeX Font Info:    ... okay on input line 209.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 209.
+LaTeX Font Info:    Try loading font information for OMX+txex on input line 209
 .
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/txfonts/omxtxex.fd
+(/usr/local/texlive/2018/texmf-dist/tex/latex/txfonts/omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 117.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 117.
-LaTeX Font Info:    Try loading font information for U+txexa on input line 117.
+LaTeX Font Info:    ... okay on input line 209.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 209.
+LaTeX Font Info:    Try loading font information for U+txexa on input line 209.
 
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/txfonts/utxexa.fd
+(/usr/local/texlive/2018/texmf-dist/tex/latex/txfonts/utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 117.
-LaTeX Font Info:    Try loading font information for OT1+txr on input line 117.
+LaTeX Font Info:    ... okay on input line 209.
+LaTeX Font Info:    Try loading font information for OT1+txr on input line 209.
 
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/txfonts/ot1txr.fd
+(/usr/local/texlive/2018/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
-(/usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+(/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count99
 \scratchdimen=\dimen119
-\scratchbox=\box32
+\scratchbox=\box31
 \nofMPsegments=\count100
 \nofMParguments=\count101
 \everyMPshowfont=\toks20
@@ -514,36 +513,41 @@ File: ot1txr.fd 2000/12/15 v3.1
 \MPnumerator=\count103
 \makeMPintoPDFobject=\count104
 \everyMPtoPDFconversion=\toks21
-) (/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/grfext.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 
-(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 
-(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )))
-(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
-(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
-(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/etexcmds.sty
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 
-(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
-))))
-(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -557,7 +561,7 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+(/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
@@ -597,172 +601,54 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Calculating math sizes for size <13> on input line 174.
-LaTeX Font Info:    Try loading font information for U+txmia on input line 174.
+LaTeX Font Info:    Try loading font information for U+txmia on input line 261.
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/txfonts/utxmia.fd
+(/usr/local/texlive/2018/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 174.
+LaTeX Font Info:    Try loading font information for U+msa on input line 261.
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 174.
+LaTeX Font Info:    Try loading font information for U+msb on input line 261.
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+txsyc on input line 174.
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 261.
 
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/txfonts/utxsyc.fd
+(/usr/local/texlive/2018/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
-<Plots/D/2019-10-31-2019-10-28-DmesonAverage_vs_transportmodels_010_5dot02.pdf,
- id=1, 569.12625pt x 551.05875pt>
-File: Plots/D/2019-10-31-2019-10-28-DmesonAverage_vs_transportmodels_010_5dot02
-.pdf Graphic file (type pdf)
-<use Plots/D/2019-10-31-2019-10-28-DmesonAverage_vs_transportmodels_010_5dot02.
-pdf>
-Package pdftex.def Info: Plots/D/2019-10-31-2019-10-28-DmesonAverage_vs_transpo
-rtmodels_010_5dot02.pdf  used on input line 186.
-(pdftex.def)             Requested size: 199.16928pt x 192.84822pt.
-<Plots/NP/2019-10-31-2019-10-29-D0PbPb5TeV_010_RaaRatio_wModel.pdf, id=2, 569.1
-2625pt x 553.06625pt>
-File: Plots/NP/2019-10-31-2019-10-29-D0PbPb5TeV_010_RaaRatio_wModel.pdf Graphic
- file (type pdf)
-<use Plots/NP/2019-10-31-2019-10-29-D0PbPb5TeV_010_RaaRatio_wModel.pdf>
-Package pdftex.def Info: Plots/NP/2019-10-31-2019-10-29-D0PbPb5TeV_010_RaaRatio
-_wModel.pdf  used on input line 187.
-(pdftex.def)             Requested size: 199.16928pt x 193.55077pt.
-<Plots/D/2019-10-31-2019-10-28-DoubleRatio_DsOverDzero_PbPb2018_010_pp_WithMode
-ls.pdf, id=3, 569.12625pt x 553.06625pt>
-File: Plots/D/2019-10-31-2019-10-28-DoubleRatio_DsOverDzero_PbPb2018_010_pp_Wit
-hModels.pdf Graphic file (type pdf)
-<use Plots/D/2019-10-31-2019-10-28-DoubleRatio_DsOverDzero_PbPb2018_010_pp_With
-Models.pdf>
-Package pdftex.def Info: Plots/D/2019-10-31-2019-10-28-DoubleRatio_DsOverDzero_
-PbPb2018_010_pp_WithModels.pdf  used on input line 193.
-(pdftex.def)             Requested size: 227.62204pt x 221.19725pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Plots/PbPbLc/2019-10-28-LcD_PbPb18_010_3050_pp_Logx_shift.pdf, id=4, 569.12625
-pt x 499.8675pt>
-File: Plots/PbPbLc/2019-10-28-LcD_PbPb18_010_3050_pp_Logx_shift.pdf Graphic fil
-e (type pdf)
-<use Plots/PbPbLc/2019-10-28-LcD_PbPb18_010_3050_pp_Logx_shift.pdf>
-Package pdftex.def Info: Plots/PbPbLc/2019-10-28-LcD_PbPb18_010_3050_pp_Logx_sh
-ift.pdf  used on input line 199.
-(pdftex.def)             Requested size: 241.84842pt x 212.4218pt.
-<Plots/PbPbLc/2019-10-31-LcD_PbPb18_010_theory_withPythia.pdf, id=5, 569.12625p
-t x 498.86375pt>
-File: Plots/PbPbLc/2019-10-31-LcD_PbPb18_010_theory_withPythia.pdf Graphic file
- (type pdf)
-<use Plots/PbPbLc/2019-10-31-LcD_PbPb18_010_theory_withPythia.pdf>
-Package pdftex.def Info: Plots/PbPbLc/2019-10-31-LcD_PbPb18_010_theory_withPyth
-ia.pdf  used on input line 200.
-(pdftex.def)             Requested size: 241.84842pt x 211.99525pt.
-
-Overfull \hbox (56.87685pt too wide) in paragraph at lines 199--201
-[][] [] 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Plots/ppHM/2019-10-31-2019-10-31-DsOverD0_allMult_MB.pdf, id=6, 569.12625pt x 
-549.05125pt>
-File: Plots/ppHM/2019-10-31-2019-10-31-DsOverD0_allMult_MB.pdf Graphic file (ty
-pe pdf)
-<use Plots/ppHM/2019-10-31-2019-10-31-DsOverD0_allMult_MB.pdf>
-Package pdftex.def Info: Plots/ppHM/2019-10-31-2019-10-31-DsOverD0_allMult_MB.p
-df  used on input line 206.
-(pdftex.def)             Requested size: 241.84842pt x 233.32275pt.
-<Plots/ppHM/2019-10-31-2019-10-31-LcpKpiOverD0_wPythiaMonashMode2_allMult.pdf, 
-id=7, 569.12625pt x 549.05125pt>
-File: Plots/ppHM/2019-10-31-2019-10-31-LcpKpiOverD0_wPythiaMonashMode2_allMult.
-pdf Graphic file (type pdf)
-<use Plots/ppHM/2019-10-31-2019-10-31-LcpKpiOverD0_wPythiaMonashMode2_allMult.p
-df>
-Package pdftex.def Info: Plots/ppHM/2019-10-31-2019-10-31-LcpKpiOverD0_wPythiaM
-onashMode2_allMult.pdf  used on input line 207.
-(pdftex.def)             Requested size: 241.84842pt x 233.32275pt.
-
-Overfull \hbox (56.87685pt too wide) in paragraph at lines 206--208
-[][] [] 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Plots/ppHM/2019-10-31-2019-10-31-LcOverD0VsMult_pp_pPb_PbPb.pdf, id=8, 569.126
-25pt x 409.53pt>
-File: Plots/ppHM/2019-10-31-2019-10-31-LcOverD0VsMult_pp_pPb_PbPb.pdf Graphic f
-ile (type pdf)
-<use Plots/ppHM/2019-10-31-2019-10-31-LcOverD0VsMult_pp_pPb_PbPb.pdf>
-Package pdftex.def Info: Plots/ppHM/2019-10-31-2019-10-31-LcOverD0VsMult_pp_pPb
-_PbPb.pdf  used on input line 213.
-(pdftex.def)             Requested size: 455.24408pt x 327.59944pt.
-
-Overfull \hbox (26.52408pt too wide) in paragraph at lines 213--214
-[][] 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Plots/Xi_c/2019-10-28-2019-10-28-Xic0toD0_5TeV_wModel1.pdf, id=9, 569.12625pt 
-x 319.1925pt>
-File: Plots/Xi_c/2019-10-28-2019-10-28-Xic0toD0_5TeV_wModel1.pdf Graphic file (
-type pdf)
-<use Plots/Xi_c/2019-10-28-2019-10-28-Xic0toD0_5TeV_wModel1.pdf>
-Package pdftex.def Info: Plots/Xi_c/2019-10-28-2019-10-28-Xic0toD0_5TeV_wModel1
-.pdf  used on input line 219.
-(pdftex.def)             Requested size: 241.84842pt x 135.64284pt.
-<Plots/FF/2019-10-31-finalwsys_wmodels_pt_jet_7_15.pdf, id=10, 569.19652pt x 44
-5.8256pt>
-File: Plots/FF/2019-10-31-finalwsys_wmodels_pt_jet_7_15.pdf Graphic file (type 
-pdf)
-<use Plots/FF/2019-10-31-finalwsys_wmodels_pt_jet_7_15.pdf>
-Package pdftex.def Info: Plots/FF/2019-10-31-finalwsys_wmodels_pt_jet_7_15.pdf 
- used on input line 220.
-(pdftex.def)             Requested size: 241.84842pt x 189.42915pt.
-
-Overfull \hbox (56.87685pt too wide) in paragraph at lines 219--221
-[][] [] 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-No file nupha-template.bbl.
-<elsevier-logo-3p.pdf, id=11, 54.08205pt x 59.7432pt>
+LaTeX Font Info:    Calculating math sizes for size <17> on input line 269.
+LaTeX Font Info:    Calculating math sizes for size <13> on input line 269.
+<elsevier-logo-3p.pdf, id=1, 54.08205pt x 59.7432pt>
 File: elsevier-logo-3p.pdf Graphic file (type pdf)
 <use elsevier-logo-3p.pdf>
-Package pdftex.def Info: elsevier-logo-3p.pdf  used on input line 260.
+Package pdftex.def Info: elsevier-logo-3p.pdf  used on input line 301.
 (pdftex.def)             Requested size: 54.0819pt x 59.74303pt.
-<SDlogo-3p.pdf, id=12, 169.8345pt x 33.9669pt>
+<SDlogo-3p.pdf, id=2, 169.8345pt x 33.9669pt>
 File: SDlogo-3p.pdf Graphic file (type pdf)
 <use SDlogo-3p.pdf>
-Package pdftex.def Info: SDlogo-3p.pdf  used on input line 260.
+Package pdftex.def Info: SDlogo-3p.pdf  used on input line 301.
 (pdftex.def)             Requested size: 169.83408pt x 33.96681pt.
-LaTeX Font Info:    Try loading font information for OT1+txss on input line 260
+LaTeX Font Info:    Try loading font information for OT1+txss on input line 301
 .
-(/usr/local/texlive/2019/texmf-dist/tex/latex/txfonts/ot1txss.fd
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/txfonts/ot1txss.fd
 File: ot1txss.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 17.09995pt on input line 260.
+(Font)              scaled to size 17.09995pt on input line 301.
 File: elsevier-logo-3p.pdf Graphic file (type pdf)
 <use elsevier-logo-3p.pdf>
-Package pdftex.def Info: elsevier-logo-3p.pdf  used on input line 260.
+Package pdftex.def Info: elsevier-logo-3p.pdf  used on input line 301.
 (pdftex.def)             Requested size: 54.0819pt x 59.74303pt.
 File: SDlogo-3p.pdf Graphic file (type pdf)
 <use SDlogo-3p.pdf>
-Package pdftex.def Info: SDlogo-3p.pdf  used on input line 260.
+Package pdftex.def Info: SDlogo-3p.pdf  used on input line 301.
 (pdftex.def)             Requested size: 169.83408pt x 33.96681pt.
 
 Overfull \hbox (1.23996pt too wide) has occurred while \output is active
@@ -773,42 +659,124 @@ Overfull \hbox (1.23996pt too wide) has occurred while \output is active
 Overfull \vbox (53.16998pt too high) has occurred while \output is active []
 
 
-[1{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+[1{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
- <./elsevier-logo-3p.pdf> <./SDlogo-3p.pdf> <./Plots/D/2019-10-31-2019-10-28-Dm
-esonAverage_vs_transportmodels_010_5dot02.pdf> <./Plots/NP/2019-10-31-2019-10-2
-9-D0PbPb5TeV_010_RaaRatio_wModel.pdf>] [2 <./Plots/D/2019-10-31-2019-10-28-Doub
-leRatio_DsOverDzero_PbPb2018_010_pp_WithModels.pdf> <./Plots/PbPbLc/2019-10-28-
-LcD_PbPb18_010_3050_pp_Logx_shift.pdf> <./Plots/PbPbLc/2019-10-31-LcD_PbPb18_01
-0_theory_withPythia.pdf>] [3 <./Plots/ppHM/2019-10-31-2019-10-31-DsOverD0_allMu
-lt_MB.pdf> <./Plots/ppHM/2019-10-31-2019-10-31-LcpKpiOverD0_wPythiaMonashMode2_
-allMult.pdf> <./Plots/ppHM/2019-10-31-2019-10-31-LcOverD0VsMult_pp_pPb_PbPb.pdf
->]
-[4 <./Plots/Xi_c/2019-10-28-2019-10-28-Xic0toD0_5TeV_wModel1.pdf> <./Plots/FF/2
-019-10-31-finalwsys_wmodels_pt_jet_7_15.pdf>] (./nupha-template.aux)
+ <./elsevier-logo-3p.pdf> <./SDlogo-3p.pdf>]
+
+LaTeX Warning: Command \c invalid in math mode on input line 306.
+
+
+LaTeX Warning: Command \c invalid in math mode on input line 310.
+
+<Plots/D/2019-10-31-2019-10-28-DmesonAverage_vs_transportmodels_010_5dot02.pdf,
+ id=22, 569.12625pt x 551.05875pt>
+File: Plots/D/2019-10-31-2019-10-28-DmesonAverage_vs_transportmodels_010_5dot02
+.pdf Graphic file (type pdf)
+<use Plots/D/2019-10-31-2019-10-28-DmesonAverage_vs_transportmodels_010_5dot02.
+pdf>
+Package pdftex.def Info: Plots/D/2019-10-31-2019-10-28-DmesonAverage_vs_transpo
+rtmodels_010_5dot02.pdf  used on input line 314.
+(pdftex.def)             Requested size: 141.47838pt x 136.98235pt.
+<Plots/NP/2019-10-31-2019-10-29-D0PbPb5TeV_010_RaaRatio_wModel.pdf, id=23, 569.
+12625pt x 553.06625pt>
+File: Plots/NP/2019-10-31-2019-10-29-D0PbPb5TeV_010_RaaRatio_wModel.pdf Graphic
+ file (type pdf)
+<use Plots/NP/2019-10-31-2019-10-29-D0PbPb5TeV_010_RaaRatio_wModel.pdf>
+Package pdftex.def Info: Plots/NP/2019-10-31-2019-10-29-D0PbPb5TeV_010_RaaRatio
+_wModel.pdf  used on input line 315.
+(pdftex.def)             Requested size: 141.47838pt x 137.48138pt.
+<Plots/D/2019-10-31-2019-10-28-DoubleRatio_DsOverDzero_PbPb2018_010_pp_WithMode
+ls.pdf, id=24, 569.12625pt x 553.06625pt>
+File: Plots/D/2019-10-31-2019-10-28-DoubleRatio_DsOverDzero_PbPb2018_010_pp_Wit
+hModels.pdf Graphic file (type pdf)
+<use Plots/D/2019-10-31-2019-10-28-DoubleRatio_DsOverDzero_PbPb2018_010_pp_With
+Models.pdf>
+Package pdftex.def Info: Plots/D/2019-10-31-2019-10-28-DoubleRatio_DsOverDzero_
+PbPb2018_010_pp_WithModels.pdf  used on input line 316.
+(pdftex.def)             Requested size: 141.47838pt x 137.48138pt.
+<Plots/PbPbLc/2019-10-28-LcD_PbPb18_010_3050_pp_Logx_shift.pdf, id=25, 569.1262
+5pt x 499.8675pt>
+File: Plots/PbPbLc/2019-10-28-LcD_PbPb18_010_3050_pp_Logx_shift.pdf Graphic fil
+e (type pdf)
+<use Plots/PbPbLc/2019-10-28-LcD_PbPb18_010_3050_pp_Logx_shift.pdf>
+Package pdftex.def Info: Plots/PbPbLc/2019-10-28-LcD_PbPb18_010_3050_pp_Logx_sh
+ift.pdf  used on input line 340.
+(pdftex.def)             Requested size: 184.34645pt x 161.91347pt.
+<Plots/PbPbLc/2019-10-31-LcD_PbPb18_010_theory_withPythia.pdf, id=26, 569.12625
+pt x 498.86375pt>
+File: Plots/PbPbLc/2019-10-31-LcD_PbPb18_010_theory_withPythia.pdf Graphic file
+ (type pdf)
+<use Plots/PbPbLc/2019-10-31-LcD_PbPb18_010_theory_withPythia.pdf>
+Package pdftex.def Info: Plots/PbPbLc/2019-10-31-LcD_PbPb18_010_theory_withPyth
+ia.pdf  used on input line 341.
+(pdftex.def)             Requested size: 184.34645pt x 161.58833pt.
+[2 <./Plots/D/2019-10-31-2019-10-28-DmesonAverage_vs_transportmodels_010_5dot02
+.pdf> <./Plots/NP/2019-10-31-2019-10-29-D0PbPb5TeV_010_RaaRatio_wModel.pdf> <./
+Plots/D/2019-10-31-2019-10-28-DoubleRatio_DsOverDzero_PbPb2018_010_pp_WithModel
+s.pdf>]
+<Plots/ppHM/2019-10-31-2019-10-31-DsOverD0_allMult_MB.pdf, id=57, 569.12625pt x
+ 549.05125pt>
+File: Plots/ppHM/2019-10-31-2019-10-31-DsOverD0_allMult_MB.pdf Graphic file (ty
+pe pdf)
+<use Plots/ppHM/2019-10-31-2019-10-31-DsOverD0_allMult_MB.pdf>
+Package pdftex.def Info: Plots/ppHM/2019-10-31-2019-10-31-DsOverD0_allMult_MB.p
+df  used on input line 349.
+(pdftex.def)             Requested size: 184.34645pt x 177.84471pt.
+<Plots/ppHM/2019-10-31-2019-10-31-LcpKpiOverD0_wPythiaMonashMode2_allMult.pdf, 
+id=58, 569.12625pt x 549.05125pt>
+File: Plots/ppHM/2019-10-31-2019-10-31-LcpKpiOverD0_wPythiaMonashMode2_allMult.
+pdf Graphic file (type pdf)
+<use Plots/ppHM/2019-10-31-2019-10-31-LcpKpiOverD0_wPythiaMonashMode2_allMult.p
+df>
+Package pdftex.def Info: Plots/ppHM/2019-10-31-2019-10-31-LcpKpiOverD0_wPythiaM
+onashMode2_allMult.pdf  used on input line 350.
+(pdftex.def)             Requested size: 184.34645pt x 177.84471pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Plots/Xi_c/2019-10-28-2019-10-28-Xic0toD0_5TeV_wModel1.pdf, id=59, 569.12625pt
+ x 319.1925pt>
+File: Plots/Xi_c/2019-10-28-2019-10-28-Xic0toD0_5TeV_wModel1.pdf Graphic file (
+type pdf)
+<use Plots/Xi_c/2019-10-28-2019-10-28-Xic0toD0_5TeV_wModel1.pdf>
+Package pdftex.def Info: Plots/Xi_c/2019-10-28-2019-10-28-Xic0toD0_5TeV_wModel1
+.pdf  used on input line 357.
+(pdftex.def)             Requested size: 325.82484pt x 182.74524pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+No file nupha-template.bbl.
+[3 <./Plots/PbPbLc/2019-10-28-LcD_PbPb18_010_3050_pp_Logx_shift.pdf> <./Plots/P
+bPbLc/2019-10-31-LcD_PbPb18_010_theory_withPythia.pdf>] [4 <./Plots/ppHM/2019-1
+0-31-2019-10-31-DsOverD0_allMult_MB.pdf> <./Plots/ppHM/2019-10-31-2019-10-31-Lc
+pKpiOverD0_wPythiaMonashMode2_allMult.pdf> <./Plots/Xi_c/2019-10-28-2019-10-28-
+Xic0toD0_5TeV_wModel1.pdf>] (./nupha-template.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3577 strings out of 492616
- 50843 string characters out of 6129482
- 115479 words of memory out of 5000000
- 7385 multiletter control sequences out of 15000+600000
- 36943 words of font info for 96 fonts, out of 8000000 for 9000
+ 3767 strings out of 492649
+ 52042 string characters out of 6129622
+ 122619 words of memory out of 5000000
+ 7517 multiletter control sequences out of 15000+600000
+ 68820 words of font info for 175 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,12n,32p,281b,277s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2019/texmf-dist/fonts/type1/public/txfonts/rtxi.pfb></usr/local/texlive/
-2019/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local/texlive/2019/te
-xmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2019/texmf-dis
-t/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/ty
-pe1/urw/times/utmr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/ti
-mes/utmri8a.pfb>
-Output written on nupha-template.pdf (4 pages, 880410 bytes).
+ 41i,12n,31p,650b,277s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2018/texmf-dist/fonts/type1/public/txfonts/rtxi.pfb></usr/local/texlive/
+2018/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/local/texlive/2018/t
+exmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local/texlive/2018/texmf-di
+st/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2018/texmf-dist/font
+s/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1
+/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times
+/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.p
+fb>
+Output written on nupha-template.pdf (4 pages, 170084 bytes).
 PDF statistics:
- 146 PDF objects out of 1000 (max. 8388607)
- 116 compressed objects within 2 object streams
+ 141 PDF objects out of 1000 (max. 8388607)
+ 111 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 
